@@ -18,4 +18,9 @@ function writePassword() {
             alert("Please choose a number between 8 and 128");
             return;
         }
-}
+alert("Confirm the characters your password will contain by pressing 'ok' for yes or 'cancel' for no for the following prompts.");
+var upperCase = confirm("Do you want uppercase letters?");
+var lowerCase = confirm("Do you want lowercase letters?");
+var numbers = confirm("Do you want numbers?");
+var symbols = confirm("Do you want special characters?");
+    }
